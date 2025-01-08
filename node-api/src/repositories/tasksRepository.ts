@@ -74,7 +74,7 @@ export class TasksRepository {
   deleteTask(id: number): boolean {
     const taskIndex = this.tasks.findIndex(t => t.id === id);
     if (taskIndex > -1) {
-      this.tasks.slice(taskIndex, 1); // Remove a tarefa
+      this.tasks.splice(taskIndex, 1); // Remove a tarefa
       this.saveTasksToFile(); // Salva a alteração no arquivo
       return true;
     }

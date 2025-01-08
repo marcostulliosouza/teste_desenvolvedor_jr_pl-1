@@ -14,7 +14,7 @@ export class TasksRepository {
   private tasksFilePath: string;
 
   constructor() {
-    this.tasksFilePath = path.join(__dirname, '...', 'data', 'tasks.json'); // Caminho do arquivo de pesistência
+    this.tasksFilePath = path.join(__dirname, 'data', 'tasks.json'); // Caminho do arquivo de pesistência
 
     this.loadTasksFromFile();
   }

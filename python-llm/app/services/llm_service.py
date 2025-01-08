@@ -1,6 +1,6 @@
+from typing import Optional
 import os
 from langchain_openai import OpenAI
-from typing import Optional
 
 
 class LLMService:
@@ -13,7 +13,7 @@ class LLMService:
             raise ValueError(
                 "HF_TOKEN não está configurado. Defina a variável de ambiente.")
 
-        # Aqui assumimos que há uma variável de ambiente HF_TOKEN configurada.
+        # Inicializa o LLM com a chave de API
         self.llm = OpenAI(
             temperature=0.5,
             top_p=0.7,
@@ -22,31 +22,46 @@ class LLMService:
         )
 
     def translate_text(self, text: str, target_language: str) -> str:
-        """ Função para traduzir o texto para o idioma desejado."""
-        if target_language == 'pt':
-            translate_text = self.llm.invoke(
-                f"Translate the following text to Portuguese: {text}")
+        """Traduz o texto para o idioma desejado, se necessário."""
+        if target_language not in self.LANGUAGES:
+            raise ValueError("Idioma não suportado para tradução.")
+
+        # Só traduz se o idioma de destino for diferente do idioma original
+        if target_language == "pt":
+            return self.llm.invoke(
+                f"Traduza o seguinte texto para o português: {
+                    text}"  # Prompt em português
+            )
         elif target_language == "es":
-            translate_text = self.llm.invoke(
-                f"Translate the following text to Spanish: {text}")
-        else:
-            translate_text = text  # Se o idioma for inglês ou não for necessário traduzir
-        return translate_text
+            return self.llm.invoke(
+                f"Traduza o seguinte texto para o espanhol: {
+                    text}"  # Prompt em espanhol
+            )
+
+        # Se for 'en', retorna o texto original sem tradução
+        return text
 
     def summarize_text(self, text: str, language: str = "en") -> Optional[str]:
+        """Gera um resumo no idioma especificado."""
         if not text:
             raise ValueError("O texto a ser resumido não pode estar vazio.")
 
         if language not in self.LANGUAGES:
-            raise ValueError("O texto a ser resumido não pode estar vazio.")
+            raise ValueError(
+                f"Idioma '{language}' não é suportado para resumo.")
 
-        translate_text = self.translate_text(text, language)
+        # Traduz o texto original para o idioma desejado, se necessário
+        if language != "en" and language != "es":
+            try:
+                text = self.translate_text(text, language)
+            except Exception as e:
+                raise RuntimeError(f"Erro ao traduzir o texto: {e}")
 
-        # Formatando o prompt para que o modelo entenda a tarefa
-        prompt = f"Resuma o seguinte texto em {language}: {translate_text}"
+        # Criar o prompt para resumo
+        prompt = f"Resuma o seguinte texto em {language}: {text}"
 
         try:
-            response = self.llm.invoke(prompt)  # Invocando o modelo
+            response = self.llm.invoke(prompt)  # Invoca o modelo para resumo
             return response.strip() if response else "Resumo não encontrado."
         except Exception as e:
             raise RuntimeError(f"Erro ao gerar o resumo: {e}")

@@ -6,7 +6,7 @@ const router = Router();
 const tasksRepository = new TasksRepository();
 
 // Definindo a URL do serviço python a partir da .env
-const PYTHON_LLM_URL = process.env.PYTHON_LLM_URL || "http://localhost:5000";
+const PYTHON_LLM_URL = process.env.PYTHON_LLM_URL;
 
 // Função para interagir com o serviço python e ter o resumo
 const getSummaryFromPython = async (text: string, lang: string): Promise<string> => {
@@ -19,6 +19,7 @@ const getSummaryFromPython = async (text: string, lang: string): Promise<string>
   }
 };
 
+
 // POST: Cria uma tarefa e solicita resumo ao serviço Python
 router.post("/", async (req: Request, res: Response) => {
   try {
@@ -27,7 +28,7 @@ router.post("/", async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Campo "text" é obrigatório.' });
     }
 
-    const supportedLanguages = ['pt', 'en', 'es'];
+    const supportedLanguages = ["pt", "en", "es"];
     if (!lang || !supportedLanguages.includes(lang)) {
       return res
         .status(400)
@@ -35,17 +36,17 @@ router.post("/", async (req: Request, res: Response) => {
     }
 
     // Cria a "tarefa"
-    const task = tasksRepository.createTask(text, lang);
+    const task = await tasksRepository.createTask(text, lang); // Se a função createTask for assíncrona, aguarde
 
     // Solicita o resumo ao serviço python
     const summary = await getSummaryFromPython(text, lang);
 
     // Atualiza a tarefa com o resumo
-    tasksRepository.updateTask(task.id, summary);
+    await tasksRepository.updateTask(task.id, summary); // Garantir que a tarefa seja atualizada depois de receber o resumo
 
     return res.status(201).json({
       message: "Tarefa criada com sucesso!",
-      task: tasksRepository.getTaskById(task.id),
+      task: await tasksRepository.getTaskById(task.id), // Aguarde para garantir que o resumo foi aplicado
     });
   } catch (error) {
     console.error("Erro ao criar tarefa:", error);

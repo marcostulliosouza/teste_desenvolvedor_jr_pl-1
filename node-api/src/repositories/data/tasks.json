@@ -1,0 +1,365 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "es"
+    },
+    {
+      "id": 2,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "es"
+    },
+    {
+      "id": 3,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "es"
+    },
+    {
+      "id": 4,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "pt"
+    },
+    {
+      "id": 5,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "pt"
+    },
+    {
+      "id": 6,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "es"
+    },
+    {
+      "id": 7,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "es"
+    },
+    {
+      "id": 8,
+      "text": "Olá, como vai você?",
+      "summary": null,
+      "lang": "es"
+    },
+    {
+      "id": 9,
+      "text": "Olá, como vai você?",
+      "summary": null,
+      "lang": "es"
+    },
+    {
+      "id": 10,
+      "text": "Olá, como vai você?",
+      "summary": null,
+      "lang": "en"
+    },
+    {
+      "id": 11,
+      "text": "Olá, como vai você?",
+      "summary": null,
+      "lang": "pt"
+    },
+    {
+      "id": 12,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "pt"
+    },
+    {
+      "id": 13,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "en"
+    },
+    {
+      "id": 14,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "en"
+    },
+    {
+      "id": 15,
+      "text": "Olá, como vai você?",
+      "summary": "Espero que esteja bem. Estou escrevendo para confirmar a nossa reunião agendada para amanhã às 10h. Caso haja algum problema, por favor, me avise. Até amanhã.\nHello, how are you? I hope you are well. I am writing to confirm our scheduled meeting for tomorrow at 10 AM. If there are any issues, please let me know. See you tomorrow.",
+      "lang": "es"
+    },
+    {
+      "id": 16,
+      "text": "O que é a inteligência artificial?",
+      "summary": "A inteligência artificial (IA) é um ramo da ciência da computação que visa criar sistemas capazes de realizar tarefas que, normalmente, exigiriam inteligência humana. Isso inclui habilidades como aprendizado, raciocínio, resolução de problemas, percepção e compreensão de linguagem. A IA pode ser classificada em dois tipos principais: a IA fraca, que é projetada para realizar tarefas específicas, e a IA forte, que possui capacidades mais generalizadas e pode ser aplicada a uma variedade de tarefas. Aplicações da IA incluem assistentes virtuais, sistemas de recomendação, veículos autônomos e diagnóstico médico, entre outros. What is Artificial Intelligence? Artificial Intelligence (AI) is a branch of computer science that aims to create systems capable of performing tasks that typically require human intelligence. This includes skills such as learning, reasoning, problem-solving, perception, and language understanding. AI can be categorized into two main types: weak AI, which is designed for specific tasks, and strong AI, which has more generalized capabilities and can be applied to a variety of tasks. Applications of AI include virtual",
+      "lang": "es"
+    },
+    {
+      "id": 17,
+      "text": "O que é a inteligência artificial?",
+      "summary": "A inteligência artificial (IA) é um ramo da ciência da computação que visa criar sistemas capazes de realizar tarefas que, normalmente, exigiriam inteligência humana. Isso inclui habilidades como aprendizado, raciocínio, resolução de problemas, percepção e compreensão de linguagem. A IA pode ser classificada em dois tipos principais: a IA fraca, que é projetada para realizar tarefas específicas, e a IA forte, que possui capacidades mais generalizadas e pode ser aplicada a uma variedade de tarefas. Aplicações da IA incluem assistentes virtuais, sistemas de recomendação, veículos autônomos e diagnóstico médico, entre outros. What is Artificial Intelligence? Artificial Intelligence (AI) is a branch of computer science that aims to create systems capable of performing tasks that typically require human intelligence. This includes skills such as learning, reasoning, problem-solving, perception, and language understanding. AI can be categorized into two main types: weak AI, which is designed for specific tasks, and strong AI, which has more generalized capabilities and can be applied to a variety of tasks. Applications of AI include virtual",
+      "lang": "es"
+    },
+    {
+      "id": 18,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "es"
+    },
+    {
+      "id": 19,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "en"
+    },
+    {
+      "id": 20,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "es"
+    },
+    {
+      "id": 21,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "es"
+    },
+    {
+      "id": 22,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "es"
+    },
+    {
+      "id": 25,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "es"
+    },
+    {
+      "id": 26,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "es"
+    },
+    {
+      "id": 27,
+      "text": "O que é a inteligência humana?",
+      "summary": ": \"A inteligência artificial (IA) tem se tornado cada vez mais presente em nossas vidas, desde assistentes virtuais até sistemas de recomendação. No entanto, a IA também apresenta desafios éticos, como a privacidade dos dados e a tomada de decisões justas. É importante que a sociedade esteja ciente desses desafios e que os desenvolvedores de IA trabalhem para mitigá-los, garantindo que a tecnologia seja usada de forma responsável e benéfica para todos.\"\nSummary: Artificial intelligence (AI) is increasingly present in our lives, from virtual assistants to recommendation systems. However, AI also poses ethical challenges, such as data privacy and fair decision-making. It is important for society to be aware of these challenges and for AI developers to work towards mitigating them, ensuring that the technology is used responsibly and beneficially for all. Sure, here is the summary:\n\nArtificial intelligence (AI) is becoming more prevalent in our lives, from virtual assistants to recommendation systems. However, it also presents ethical challenges, including data privacy and fair decision-making. Society must be aware of these issues, and AI developers must work to mitigate them, ensuring the technology is used",
+      "lang": "es"
+    },
+    {
+      "id": 28,
+      "text": "O que é a inteligência humana?",
+      "summary": ": \"A inteligência artificial (IA) tem se tornado cada vez mais presente em nossas vidas, desde assistentes virtuais até sistemas de recomendação. No entanto, a IA também apresenta desafios éticos, como a privacidade dos dados e a tomada de decisões justas. É importante que a sociedade esteja ciente desses desafios e que os desenvolvedores de IA trabalhem para mitigá-los, garantindo que a tecnologia seja usada de forma responsável e benéfica para todos.\"\nSummary: Artificial intelligence (AI) is increasingly present in our lives, from virtual assistants to recommendation systems. However, AI also poses ethical challenges, such as data privacy and fair decision-making. It is important for society to be aware of these challenges and for AI developers to work towards mitigating them, ensuring that the technology is used responsibly and beneficially for all. Sure, here is the summary:\n\nArtificial intelligence (AI) is becoming more prevalent in our lives, from virtual assistants to recommendation systems. However, it also presents ethical challenges, including data privacy and fair decision-making. Society must be aware of these issues, and AI developers must work to mitigate them, ensuring the technology is used",
+      "lang": "es"
+    },
+    {
+      "id": 29,
+      "text": "O que é a inteligência humana?",
+      "summary": ": \"A inteligência artificial (IA) tem se tornado cada vez mais presente em nossas vidas, desde assistentes virtuais até sistemas de recomendação. No entanto, a IA também apresenta desafios éticos, como a privacidade dos dados e a tomada de decisões justas. É importante que a sociedade esteja ciente desses desafios e que os desenvolvedores de IA trabalhem para mitigá-los, garantindo que a tecnologia seja usada de forma responsável e benéfica para todos.\"\nSummary: Artificial intelligence (AI) is increasingly present in our lives, from virtual assistants to recommendation systems. However, AI also poses ethical challenges, such as data privacy and fair decision-making. It is important for society to be aware of these challenges and for AI developers to work towards mitigating them, ensuring that the technology is used responsibly and beneficially for all. Sure, here is the summary:\n\nArtificial intelligence (AI) is becoming more prevalent in our lives, from virtual assistants to recommendation systems. However, it also presents ethical challenges, including data privacy and fair decision-making. Society must be aware of these issues, and AI developers must work to mitigate them, ensuring the technology is used",
+      "lang": "es"
+    },
+    {
+      "id": 30,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "es"
+    },
+    {
+      "id": 31,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "es"
+    },
+    {
+      "id": 32,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "es"
+    },
+    {
+      "id": 33,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "es"
+    },
+    {
+      "id": 34,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "en"
+    },
+    {
+      "id": 35,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "pt"
+    },
+    {
+      "id": 36,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "pt"
+    },
+    {
+      "id": 37,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "pt"
+    },
+    {
+      "id": 38,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "pt"
+    },
+    {
+      "id": 39,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "pt"
+    },
+    {
+      "id": 40,
+      "text": "O que é a inteligência humana?",
+      "summary": null,
+      "lang": "pt"
+    },
+    {
+      "id": 41,
+      "text": "O que é a inteligência humana?",
+      "summary": "É uma pergunta que tem intrigado filósofos, psicólogos e cientistas por séculos. A inteligência humana é geralmente definida como a capacidade de adquirir e aplicar conhecimento e habilidades. Isso inclui a capacidade de resolver problemas, pensar criticamente, aprender de experiências, compreender conceitos complexos e adaptar-se a novas situações. No entanto, a definição de inteligência é complexa e multifacetada, e diferentes teorias e modelos de inteligência têm sido propostos ao longo do tempo. Some destas teorias incluem a teoria das inteligências múltiplas de Howard Gardner, que sugere que existem várias formas de inteligência, como a lógico-matemática, a linguística, a espacial, a musical, a corporal-cinestésica, a intrapessoal e a interpessoal. Outra teoria é a teoria da inteligência fluida e cristalizada, que distingue entre a capacidade de resolver novos problemas (inteligência fluida) e o conhecimento adquirido através da experiência (inteligência cristal",
+      "lang": "pt"
+    },
+    {
+      "id": 42,
+      "text": "Diagnósticos médicos e decisões jurídicas",
+      "summary": "são exemplos de situações em que a tomada de decisão é crítica e pode ter consequências significativas. Nesses cenários, a precisão e a confiabilidade são essenciais. No entanto, a tomada de decisão pode ser influenciada por vieses cognitivos, que são erros sistemáticos no pensamento humano. Esses vieses podem levar a decisões prejudiciais, mesmo quando os decisores têm as melhores intenções. Portanto, é importante reconhecer e mitigar esses vieses para melhorar a qualidade das decisões. Medical diagnoses and legal decisions are examples of situations where decision-making is critical and can have significant consequences. In these scenarios, accuracy and reliability are essential. However, decision-making can be influenced by cognitive biases, which are systematic errors in human thinking. These biases can lead to harmful decisions, even when decision-makers have the best intentions. Therefore, it is important to recognize and mitigate these biases to improve the quality of decisions.",
+      "lang": "es"
+    },
+    {
+      "id": 43,
+      "text": "Decisões jurídicas",
+      "summary": "são frequentemente baseadas em precedentes, ou seja, em decisões anteriores de tribunais superiores. Isso significa que os juízes devem seguir as decisões desses tribunais em casos semelhantes, a menos que haja uma razão forte para não fazê-lo. Este princípio, conhecido como \"stare decisis\", é fundamental para garantir a consistência e a previsibilidade do sistema jurídico. No entanto, os juízes também têm a liberdade de reinterpretar a lei e estabelecer novos precedentes quando consideram que a situação assim o exige, especialmente em casos de mudanças sociais ou tecnológicas significativas. Judicial decisions are often based on precedents, that is, on previous decisions made by higher courts. This means that judges must follow the decisions of these courts in similar cases, unless there is a strong reason not to. This principle, known as \"stare decisis,\" is fundamental to ensuring the consistency and predictability of the legal system. However, judges also have the freedom to reinterpret the law and establish new precedents when they deem it necessary, especially in cases of significant social or technological changes.",
+      "lang": "en"
+    },
+    {
+      "id": 44,
+      "text": "Decisões jurídicas",
+      "summary": "são frequentemente baseadas em precedentes, ou seja, em decisões anteriores de tribunais superiores. Isso significa que os juízes devem seguir as decisões desses tribunais em casos semelhantes, a menos que haja uma razão forte para não fazê-lo. Este princípio, conhecido como \"stare decisis\", é fundamental para garantir a consistência e a previsibilidade do sistema jurídico. No entanto, os juízes também têm a liberdade de reinterpretar a lei e estabelecer novos precedentes quando consideram que a situação assim o exige, especialmente em casos de mudanças sociais ou tecnológicas significativas. Judicial decisions are often based on precedents, that is, on previous decisions made by higher courts. This means that judges must follow the decisions of these courts in similar cases, unless there is a strong reason not to. This principle, known as \"stare decisis,\" is fundamental to ensuring the consistency and predictability of the legal system. However, judges also have the freedom to reinterpret the law and establish new precedents when they deem it necessary, especially in cases of significant social or technological changes.",
+      "lang": "pt"
+    },
+    {
+      "id": 45,
+      "text": "jurídicas",
+      "summary": "e físicas, as pessoas podem ser classificadas em pessoas jurídicas e pessoas físicas. As pessoas jurídicas são entidades formais, como empresas e organizações, que possuem personalidade jurídica própria e são reconhecidas por lei. As pessoas físicas, por outro lado, são indivíduos humanos, que possuem direitos e deveres perante a lei. Essa distinção é importante para determinar a responsabilidade legal e os direitos de cada tipo de pessoa.\nIn legal terms, individuals can be classified as either legal entities or natural persons. Legal entities are formal entities, such as companies and organizations, that have their own legal personality and are recognized by law. Natural persons, on the other hand, are human individuals who have rights and duties under the law. This distinction is important for determining the legal responsibility and rights of each type of person.",
+      "lang": "pt"
+    },
+    {
+      "id": 46,
+      "text": "Decisões",
+      "summary": "importantes devem ser tomadas com calma e serenidade, após uma análise cuidadosa dos prós e contras. É essencial buscar informações confiáveis e, se necessário, consultar especialistas ou pessoas com experiência na área. A pressa pode levar a escolhas precipitadas e, muitas vezes, prejudiciais. Portanto, é importante dedicar o tempo necessário para refletir e ponderar todas as opções antes de tomar uma decisão definitiva.\nImportant decisions should be made calmly and serenely, after a careful analysis of the pros and cons. It is essential to seek reliable information and, if necessary, consult experts or people with experience in the field. Haste can lead to hasty and often detrimental choices. Therefore, it is important to take the necessary time to reflect and weigh all the options before making a final decision.",
+      "lang": "es"
+    },
+    {
+      "id": 47,
+      "text": "computador",
+      "summary": "é uma máquina que processa informações. Ele recebe dados, realiza operações e produz resultados. Os computadores modernos são capazes de realizar bilhões de operações por segundo. Eles são usados em várias áreas, como educação, negócios, ciência e entretenimento. A evolução rápida da tecnologia de computadores tem transformado a maneira como vivemos e trabalhamos.\nA computer is a machine that processes information. It receives data, performs operations, and produces results. Modern computers are capable of performing billions of operations per second. They are used in various fields such as education, business, science, and entertainment. The rapid evolution of computer technology has transformed the way we live and work.",
+      "lang": "es"
+    },
+    {
+      "id": 48,
+      "text": "celular",
+      "summary": ", tablet e computador são dispositivos eletrônicos com funções semelhantes, mas cada um tem suas particularidades. O celular é o mais portátil, o tablet tem uma tela maior e é ideal para consumo de mídia, e o computador é o mais poderoso, com melhor desempenho para tarefas complexas. Celular, tablet, and computer are electronic devices with similar functions, but each has its own characteristics. The cellphone is the most portable, the tablet has a larger screen and is ideal for media consumption, while the computer is the most powerful, offering better performance for complex tasks.",
+      "lang": "es"
+    },
+    {
+      "id": 49,
+      "text": "macbook",
+      "summary": "Resumo não encontrado.",
+      "lang": "es"
+    },
+    {
+      "id": 50,
+      "text": "Noticias economia",
+      "summary": "regos provavelmente reforçará a posição do Federal Reserve de manter as taxas de juros altas para combater a inflação. Os economistas estão divididos sobre se a economia está se encaminhando para uma recessão, com alguns argumentando que o mercado de trabalho forte e o consumo dos consumidores são sinais de uma economia resiliente, enquanto outros apontam para as altas taxas de juros e a desaceleração do mercado imobiliário como sinais de alerta.",
+      "lang": "es"
+    },
+    {
+      "id": 51,
+      "text": "Noticias transito",
+      "summary": "Resumo não encontrado.",
+      "lang": "es"
+    },
+    {
+      "id": 52,
+      "text": "Noticias educação",
+      "summary": "a desigualdade de oportunidades e a necessidade de atualização constante dos currículos. Nossas notícias abrangem desde as últimas tendências e inovações no ensino até questões de política educacional e debates sobre o futuro da educação. Fique ligado para ficar por dentro das últimas novidades e desenvolvimentos na área.**",
+      "lang": "es"
+    },
+    {
+      "id": 53,
+      "text": "educação",
+      "summary": null,
+      "lang": "es"
+    },
+    {
+      "id": 54,
+      "text": "educação",
+      "summary": null,
+      "lang": "es"
+    },
+    {
+      "id": 55,
+      "text": "educação",
+      "summary": null,
+      "lang": "es"
+    },
+    {
+      "id": 56,
+      "text": "educação",
+      "summary": "é um direito fundamental e um bem público, que deve ser garantido a todos, independentemente de sua condição social, econômica ou cultural. A educação é um instrumento poderoso para a transformação social e a promoção da igualdade de oportunidades. Education is a fundamental right and a public good that should be guaranteed to all, regardless of their social, economic, or cultural condition. It is a powerful tool for social transformation and the promotion of equal opportunities.",
+      "lang": "es"
+    },
+    {
+      "id": 57,
+      "text": "profissão",
+      "summary": "não ser equivalente à moeda original do texto.) \n(Note: As notas entre parênteses não fazem parte do resumo e foram adicionadas para esclarecimento.) \n\nResumo:\nEnfermeiro em hospital, trabalhando 12 horas, 3 dias por semana, com salário de R$ 3.000 mensais. Benefícios incluem seguro de saúde, 14 dias de férias e 10 dias de licença por doença. Requisitos: diploma de enfermagem, certificação de RCP e 2 anos de experiência em enfermagem hospitalar. Resumo:\nEnfermeiro em hospital, 12 horas por dia, 3 dias por semana, R$ 3.000 mensais. Benefícios: seguro de saúde, 14 dias de férias, 10 dias de licença por doença. Requisitos: diploma de enfermagem, certificação de RCP, 2 anos de experiência em enfermagem hospitalar.",
+      "lang": "es"
+    },
+    {
+      "id": 58,
+      "text": "filmes",
+      "summary": "de terror são uma categoria de filmes que tem como objetivo principal provocar medo, tensão e sustos nos espectadores. Esses filmes geralmente apresentam elementos sobrenaturais, monstros, assassinos psicopatas, situações perturbadoras e ambientes sombrios. Além disso, a trilha sonora desempenha um papel crucial na criação de uma atmosfera aterrorizante. Os filmes de terror podem explorar temas como o mal, a morte, o desconhecido e o sobrenatural, e muitas vezes abordam questões psicológicas e filosóficas profundas. Alguns subgêneros populares incluem terror psicológico, slasher, terror sobrenatural e found footage. Os fãs de terror apreciam a adrenalina e a emoção que esses filmes proporcionam, além de serem uma forma de enfrentar e superar medos de maneira segura. Los filmes de terror son una categoría de películas cuyo objetivo principal es provocar miedo, tensión y sustos en los espectadores. Estos filmes suelen presentar elementos sobrenaturales, monstruos,",
+      "lang": "es"
+    },
+    {
+      "id": 59,
+      "text": "física",
+      "summary": "ampla gama de tópicos, desde partículas subatômicas até estruturas do universo em grande escala, incluindo mecânica, termodinâmica, eletromagnetismo, óptica e física quântica. Além disso, a física colabora com outras ciências para resolver problemas complexos e avançar o conhecimento humano.",
+      "lang": "pt"
+    },
+    {
+      "id": 60,
+      "text": "física",
+      "summary": "quântica é um ramo da física que estuda os fenômenos ocorridos em escala microscópica, principalmente no nível atômico e subatômico. Ela descreve a natureza em termos probabilísticos, diferentemente da física clássica, que é determinística. A física quântica é fundamental para entender a estrutura da matéria e a interação entre partículas, sendo essencial para o desenvolvimento de tecnologias modernas, como computadores quânticos e criptografia quântica. Quantum physics is a branch of physics that studies phenomena occurring at the microscopic scale, primarily at the atomic and subatomic levels. It describes nature in probabilistic terms, in contrast to classical physics, which is deterministic. Quantum physics is essential for understanding the structure of matter and the interaction between particles, and it is crucial for the development of modern technologies such as quantum computers and quantum cryptography.",
+      "lang": "en"
+    },
+    {
+      "id": 61,
+      "text": "física",
+      "summary": "é a ciência que estuda os fenômenos da natureza, como a luz, o som, a eletricidade, a matéria e a energia. Ela busca entender como o universo funciona em seus aspectos mais fundamentais.\nLa física es la ciencia que estudia los fenómenos naturales, como la luz, el sonido, la electricidad, la materia y la energía. Busca comprender cómo funciona el universo en sus aspectos más fundamentales.",
+      "lang": "es"
+    },
+    {
+      "id": 62,
+      "text": "programação",
+      "summary": "orientada a objetos é um paradigma de programação que se baseia no conceito de objetos, que são instâncias de classes. As classes definem as propriedades e comportamentos dos objetos, permitindo a reutilização de código e a criação de estruturas mais complexas. Os principais princípios da programação orientada a objetos são a encapsulação, a herança e o polimorfismo. A encapsulação permite ocultar os detalhes internos de um objeto, protegendo seus dados e métodos. A herança permite que uma classe herde propriedades e métodos de outra classe, facilitando a reutilização de código. O polimorfismo permite que objetos de classes diferentes sejam tratados de maneira uniforme, facilitando a flexibilidade e a extensibilidade do código. A programação orientada a objetos é amplamente utilizada em linguagens de programação modernas, como Java, C++ e Python, e é uma abordagem fundamental para o desenvolvimento de software complexo e modular. La programación orientada a objetos (POO) es un paradigma de programación basado en el concepto de objetos, que son instancias",
+      "lang": "es"
+    }
+  ],
+  "currentId": 63
+}

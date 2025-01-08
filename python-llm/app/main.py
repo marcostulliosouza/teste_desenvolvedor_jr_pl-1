@@ -1,26 +1,31 @@
-from services.llm_service import LLMService
-from pydantic import BaseModel
-from fastapi import FastAPI
-import sys
+from typing import Optional
 from dotenv import load_dotenv
+from fastapi import FastAPI
+from pydantic import BaseModel
+from services.llm_service import LLMService
+import sys
 
-load_dotenv()
 sys.path = sys.path + ["./app"]
 
 
+load_dotenv()
+
+
 app = FastAPI()
+
 llm_service = LLMService()
 
 
 class TextData(BaseModel):
     text: str
-    language: str = "en"  # Valor padrão para o idioma
+    lang: str = "en"
 
 
 @app.post("/summarize")
 async def summarize(data: TextData):
     text = data.text
-    language = data.language
+    language = data.lang
+    print(language)
 
     summary = llm_service.summarize_text(text, language)
 

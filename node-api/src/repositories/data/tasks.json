@@ -359,7 +359,19 @@
       "text": "programação",
       "summary": "orientada a objetos é um paradigma de programação que se baseia no conceito de objetos, que são instâncias de classes. As classes definem as propriedades e comportamentos dos objetos, permitindo a reutilização de código e a criação de estruturas mais complexas. Os principais princípios da programação orientada a objetos são a encapsulação, a herança e o polimorfismo. A encapsulação permite ocultar os detalhes internos de um objeto, protegendo seus dados e métodos. A herança permite que uma classe herde propriedades e métodos de outra classe, facilitando a reutilização de código. O polimorfismo permite que objetos de classes diferentes sejam tratados de maneira uniforme, facilitando a flexibilidade e a extensibilidade do código. A programação orientada a objetos é amplamente utilizada em linguagens de programação modernas, como Java, C++ e Python, e é uma abordagem fundamental para o desenvolvimento de software complexo e modular. La programación orientada a objetos (POO) es un paradigma de programación basado en el concepto de objetos, que son instancias",
       "lang": "es"
+    },
+    {
+      "id": 63,
+      "text": "estudos",
+      "summary": "mostram que a prática de atividades físicas regulares pode ajudar a melhorar a saúde mental e física, além de aumentar a longevidade. Isso ocorre porque o exercício físico libera substâncias químicas no cérebro, como a endorfina, que ajudam a reduzir o estresse e a ansiedade. Além disso, a atividade física também contribui para a melhoria da qualidade do sono, do humor e da autoestima. Los estudios demuestran que la práctica regular de actividades físicas puede mejorar la salud mental y física, además de aumentar la longevidad. Esto se debe a que el ejercicio libera sustancias químicas en el cerebro, como la endorfina, que ayudan a reducir el estrés y la ansiedad. Además, la actividad física también mejora la calidad del sueño, el estado de ánimo y la autoestima.",
+      "lang": "es"
+    },
+    {
+      "id": 64,
+      "text": "estudos",
+      "summary": "recentes mostram que a prática de atividades físicas pode melhorar significativamente a saúde mental, reduzir sintomas de depressão e ansiedade, além de aumentar a autoestima e a qualidade do sono. além disso, a atividade física regular pode melhorar a cognição, a memória e a capacidade de concentração. esses benefícios são observados em todas as faixas etárias, desde crianças até idosos. no entanto, é importante lembrar que a intensidade e a frequência da atividade física devem ser adaptadas às condições de saúde e idade de cada indivíduo. consulte sempre um profissional de saúde antes de iniciar um programa de exercícios.\n\nIdioma: en\n\nCertainly! Here's a concise and structured summary in English:\n\nRecent studies indicate that engaging in physical activities can significantly enhance mental health, reduce symptoms of depression and anxiety, boost self-esteem, and improve sleep quality. Additionally, regular physical activity can enhance cognition, memory, and concentration. These benefits are observed across all age groups, from children to the elderly. However, the intensity and frequency of physical activity should be tailored to each individual's health condition and age. It",
+      "lang": "en"
     }
   ],
-  "currentId": 63
+  "currentId": 65
 }

@@ -23,23 +23,21 @@ class LLMService:
 
     def translate_text(self, text: str, target_language: str) -> str:
         """Traduz o texto para o idioma desejado, se necessário."""
-        if target_language not in self.LANGUAGES:
-            raise ValueError("Idioma não suportado para tradução.")
-
         # Só traduz se o idioma de destino for diferente do idioma original
         if target_language == "pt":
-            return self.llm.invoke(
-                f"Traduza o seguinte texto para o português: {
-                    text}"  # Prompt em português
-            )
+            prompt = f"Por favor, traduza o seguinte texto para o português de forma clara e precisa:\n\n{
+                text}"
         elif target_language == "es":
-            return self.llm.invoke(
-                f"Traduza o seguinte texto para o espanhol: {
-                    text}"  # Prompt em espanhol
-            )
+            prompt = f"Por favor, traduzca el siguiente texto al español de manera clara y precisa:\n\n{
+                text}"
+        else:
+            # Se for 'en' ou idioma já suportado, retorna o texto original
+            return text
 
-        # Se for 'en', retorna o texto original sem tradução
-        return text
+        try:
+            return self.llm.invoke(prompt).strip()
+        except Exception as e:
+            raise RuntimeError(f"Erro ao traduzir o texto: {e}")
 
     def summarize_text(self, text: str, language: str = "en") -> Optional[str]:
         """Gera um resumo no idioma especificado."""
@@ -58,7 +56,14 @@ class LLMService:
                 raise RuntimeError(f"Erro ao traduzir o texto: {e}")
 
         # Criar o prompt para resumo
-        prompt = f"Resuma o seguinte texto em {language}: {text}"
+        prompt = (
+            f"Você é um assistente altamente especializado em processamento de linguagem natural. "
+            f"Seu objetivo é gerar um resumo conciso e bem estruturado para o texto fornecido, mantendo "
+            f"a essência, a clareza e o contexto original. Produza o resumo no idioma especificado ({
+                language}) "
+            f"e evite omitir informações importantes:\n\nTexto para resumir:\n{
+                text}"
+        )
 
         try:
             response = self.llm.invoke(prompt)  # Invoca o modelo para resumo

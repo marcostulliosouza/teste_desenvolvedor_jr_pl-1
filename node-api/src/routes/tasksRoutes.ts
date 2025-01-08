@@ -11,7 +11,7 @@ const PYTHON_LLM_URL = process.env.PYTHON_LLM_URL || "http://localhost:5000";
 // Função para interagir com o serviço python e ter o resumo
 const getSummaryFromPython = async (text: string, lang: string): Promise<string> => {
   try {
-    const response = await axios.post(`${PYTHON_LLM_URL}/summary`, { text, lang });
+    const response = await axios.post(`${PYTHON_LLM_URL}/summarize`, { text, lang });
     return response.data.summary;
   } catch (error) {
     console.error('Erro ao se comunicar com o serviço python: ', error);

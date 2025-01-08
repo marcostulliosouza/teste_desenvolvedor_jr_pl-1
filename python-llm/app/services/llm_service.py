@@ -57,11 +57,11 @@ class LLMService:
 
         # Criar o prompt para resumo
         prompt = (
-            f"Você é um assistente altamente especializado em processamento de linguagem natural. "
-            f"Seu objetivo é gerar um resumo conciso e bem estruturado para o texto fornecido, mantendo "
-            f"a essência, a clareza e o contexto original. Produza o resumo no idioma especificado ({
-                language}) "
-            f"e evite omitir informações importantes:\n\nTexto para resumir:\n{
+            f"Você é um assistente especializado em linguagem natural. Seu objetivo é criar um resumo claro e objetivo, "
+            f"capturando os principais pontos do texto fornecido. O resumo deve ser no idioma especificado ({
+                language}) e "
+            f"ter entre 3 e 5 frases curtas, mantendo a essência e o contexto do texto. Certifique-se de não repetir ideias "
+            f"ou incluir detalhes desnecessários.\n\nTexto para resumir:\n{
                 text}"
         )
 

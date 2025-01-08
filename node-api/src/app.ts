@@ -9,7 +9,7 @@ app.use('/tasks', tasksRoutes);
 
 // Rota inicial
 app.get('/', (req, res) => {
-  res.json({ message: 'API is running!' })
+  res.json({ message: 'API is running' })
 });
 
 app.use((error: Error, req: Request, res: Response, next: NextFunction) => {

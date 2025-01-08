@@ -4,4 +4,8 @@
     "python.analysis.autoSearchPaths": true,
     "python.analysis.typeCheckingMode": "standard",
     "python.analysis.indexing": true,
+    "cSpell.words": [
+        "dotenv",
+        "resquest"
+    ],
 }

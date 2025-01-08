@@ -23,23 +23,21 @@ class LLMService:
 
     def translate_text(self, text: str, target_language: str) -> str:
         """Traduz o texto para o idioma desejado, se necessário."""
-        if target_language not in self.LANGUAGES:
-            raise ValueError("Idioma não suportado para tradução.")
-
         # Só traduz se o idioma de destino for diferente do idioma original
         if target_language == "pt":
-            return self.llm.invoke(
-                f"Traduza o seguinte texto para o português: {
-                    text}"  # Prompt em português
-            )
+            prompt = f"Por favor, traduza o seguinte texto para o português de forma clara e precisa:\n\n{
+                text}"
         elif target_language == "es":
-            return self.llm.invoke(
-                f"Traduza o seguinte texto para o espanhol: {
-                    text}"  # Prompt em espanhol
-            )
+            prompt = f"Por favor, traduzca el siguiente texto al español de manera clara y precisa:\n\n{
+                text}"
+        else:
+            # Se for 'en' ou idioma já suportado, retorna o texto original
+            return text
 
-        # Se for 'en', retorna o texto original sem tradução
-        return text
+        try:
+            return self.llm.invoke(prompt).strip()
+        except Exception as e:
+            raise RuntimeError(f"Erro ao traduzir o texto: {e}")
 
     def summarize_text(self, text: str, language: str = "en") -> Optional[str]:
         """Gera um resumo no idioma especificado."""
@@ -58,7 +56,14 @@ class LLMService:
                 raise RuntimeError(f"Erro ao traduzir o texto: {e}")
 
         # Criar o prompt para resumo
-        prompt = f"Resuma o seguinte texto em {language}: {text}"
+        prompt = (
+            f"Você é um assistente especializado em linguagem natural. Seu objetivo é criar um resumo claro e objetivo, "
+            f"capturando os principais pontos do texto fornecido. O resumo deve ser no idioma especificado ({
+                language}) e "
+            f"ter entre 3 e 5 frases curtas, mantendo a essência e o contexto do texto. Certifique-se de não repetir ideias "
+            f"ou incluir detalhes desnecessários.\n\nTexto para resumir:\n{
+                text}"
+        )
 
         try:
             response = self.llm.invoke(prompt)  # Invoca o modelo para resumo

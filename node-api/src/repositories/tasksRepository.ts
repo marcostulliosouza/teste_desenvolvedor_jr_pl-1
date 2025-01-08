@@ -69,4 +69,15 @@ export class TasksRepository {
   getAllTasks(): Task[] {
     return this.tasks;
   }
+
+  // Função para deletar uma tarefa pelo ID
+  deleteTask(id: number): boolean {
+    const taskIndex = this.tasks.findIndex(t => t.id === id);
+    if (taskIndex > -1) {
+      this.tasks.slice(taskIndex, 1); // Remove a tarefa
+      this.saveTasksToFile(); // Salva a alteração no arquivo
+      return true;
+    }
+    return false; // Se não encontrar a tarefa retorna falso.
+  }
 }
